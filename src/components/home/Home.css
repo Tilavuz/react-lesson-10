@@ -1,0 +1,40 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.home-data {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.home-data .card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+    border: 1px solid #333;
+    padding: 20px;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.home-data .card p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.home .btns {
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+}
+
+.home .btns button {
+    padding: 10px;
+}
